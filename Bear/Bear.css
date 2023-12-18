@@ -1,17 +1,22 @@
-.heading
-{
-font-size: 23px;
-width: 100%;
-margin: 0px;
+body{
+    background-position: center;
+    background-size: cover;
 }
-
-#status
-{
-font-size: 18px;
+.heading{
+    width: 100%;
+    font-size: larger;
+    margin-top: 0px;
 }
-
-canvas
-{
-    box-shadow: 10px, 10px, 10px grey;
+.heading:hover{
+    font-size: large;
+}
+.link{
+    background-color: whitesmoke;
     border-radius: 10px;
+    width: 80px;
+    float: right;
+}
+canvas{
+    border-radius: 10px;
+    box-shadow: 7px 7px 7px grey;
 }
